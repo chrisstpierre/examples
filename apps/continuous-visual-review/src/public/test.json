@@ -1,0 +1,11 @@
+{
+  "deleted": ["test.png"],
+  "created": ["test.png"],
+  "diffs": [
+    {
+      "path": "test.png",
+      "code": 1,
+      "differences": 3
+    }
+  ]
+}

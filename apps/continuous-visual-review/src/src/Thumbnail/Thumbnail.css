@@ -1,0 +1,21 @@
+.thumbnail {
+  width: 30%;
+  margin: 0 1% 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.thumbnail:hover {
+  padding-left: .5%;
+  margin-left: .5%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+.thumbnail img {
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  display: block;
+}

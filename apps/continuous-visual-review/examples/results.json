@@ -1,0 +1,14 @@
+{
+  "passed": 0,
+  "failed": 1,
+  "differences": 3,
+  "deleted": ["filepath.png"],
+  "created": ["filepath.png"],
+  "changed": [
+    {
+      "path": "filepath.png",
+      "code": 1,
+      "differences": 3
+    }
+  ]
+}

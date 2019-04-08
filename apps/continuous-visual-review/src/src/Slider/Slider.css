@@ -1,0 +1,25 @@
+
+.image-slider {
+	position: relative;
+	display: block;
+	line-height: 0;
+	cursor: pointer;
+}
+
+.selector {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	z-index: 2;
+}
+
+.image-slider .container-left-img {
+	z-index: 1;
+	position: absolute;
+	top: 0; bottom: 0; left: 0;
+	overflow: hidden;
+	border-right: grey 5px solid;
+	box-sizing: border-box;
+	background-position: left center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
