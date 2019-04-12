@@ -1,4 +1,4 @@
-when github webhooks listen event:'issues' as req
+when github server webhook event:'issues' as req
 
     if !(['labeled', 'opened'] contains item:req.body['action'])
         return

@@ -1,0 +1,7 @@
+expose:
+  - service: github
+    name: webhooks
+
+functions:
+  diff:
+    file: ./diff.py
