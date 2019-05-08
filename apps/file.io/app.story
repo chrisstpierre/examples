@@ -8,7 +8,7 @@ when http server listen path:'/' method:'POST' as req
     req write content:'https://{app.hostname}/?id={id}\n'
     req finish  # Go asynchronous from the upload client, closing it out
     storage put :id content:req.content
-    events schedule name:'expire' data:{'id': id} delay:864000
+    schedule event name:'expire' data:{'id': id} delay:864000
 
 # Endpoint to download
 when http server listen path:'/' method:'GET' as req
@@ -22,5 +22,5 @@ when http server listen path:'/' method:'GET' as req
         req write content:'Not found'
 
 # Delayed trigger to delete
-when events listener triggered name:'expire' as events
-    storage delete id:events.data['id']
+when schedule event triggered name:'expire' as event
+    storage delete id:event.data['id']

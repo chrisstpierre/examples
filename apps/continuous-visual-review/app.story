@@ -1,7 +1,6 @@
 ###
 Listen for Netlify webhooks and take screenshots of changes
 ###
-
 function getSlugFromUrl url:string returns string
     # https://github.com/owner/repo/... => owner/repo
     return url split by:'/' then slice from:3 to:5 then join by:'/'
