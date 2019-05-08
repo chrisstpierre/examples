@@ -10,11 +10,11 @@ Please see our [`use-cases.story` file](examples/blob/master/use-cases.story) fo
 
 ## Storyscript Examples
 
-Also available, in our [`examples` directory](examples/blob/master/examples) are more example interactions, using Storyscript.
+Also available, in our [`examples` directory](/tree/master/examples) are more example interactions, using Storyscript.
 
 
 ## Storyscript Apps
 
-Finally, see the [`apps` directory](examples/blob/master/apps) for some example Storyscript applications.
+Finally, see the [`apps` directory](/tree/master/apps) for some example Storyscript applications.
 
 ✨ 🍰 ✨
