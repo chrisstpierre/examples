@@ -15,6 +15,6 @@ Also available, in our [`examples` directory](https://github.com/storyscript/exa
 
 ## Storyscript Apps
 
-Finally, see the [`apps` directory](https://github.com/storyscript/tree/master/apps) for some example Storyscript applications.
+Finally, see the [`apps` directory](https://github.com/storyscript/examples/tree/master/apps) for some example Storyscript applications.
 
 ✨ 🍰 ✨
