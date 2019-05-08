@@ -7,3 +7,14 @@ This respository contains a collection of Storyscript examples.
 ## Storyscript Use Cases
 
 Please see our [`use-cases.story` file](examples/blob/master/use-cases.story) for some example interactions, using Storyscript.
+
+## Storyscript Examples
+
+Also available, in our [`examples` directory](examples/blob/master/examples) are more example interactions, using Storyscript.
+
+
+## Storyscript Apps
+
+Finally, see the [`apps` directory](examples/blob/master/apps) for some example Storyscript applications.
+
+✨ 🍰 ✨
