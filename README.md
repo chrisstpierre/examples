@@ -2,9 +2,9 @@
 
 This respository contains a collection of Storyscript examples.
 
-**Note**: Some of the services referenced here (e.g. `machinebox/facebox`) have not been built out, yet.
-
 Storyscript is an inherently asyncronous (and multi-host) runtime environment. All of these examples, if the code was built out to support them, would automatically run concurrently.
+
+**Note**: Some of the services referenced here (e.g. `machinebox/facebox`) have not been built out, yet.
 
 
 ## Use Cases
