@@ -5,6 +5,9 @@ function publish_event event_type: string content: any subject: string cause: st
     if content != null
         content = json stringify content: content
 
+    if cause == null
+        cause = ""
+
     props = {
          "cloudEvents:id": uuid generate,
          "cloudEvents:source": "Retailer.Storyscript",
